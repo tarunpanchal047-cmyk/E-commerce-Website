@@ -1,5 +1,23 @@
 {
-    "users":[
-        
-    ]
+  "users": [
+    {
+      "username": "tarun",
+      "email": "tarunpanchal047@gmail.com",
+      "password": "12345",
+      "id": "eW02uksEzkc"
+    },
+    {
+      "username": "tarun",
+      "email": "tarunpanchal047@gmail.com",
+      "password": "12345",
+      "id": "XXXnWRTvDnc"
+    },
+    {
+      "username": "shruti",
+      "email": "panchal047@gmail.com",
+      "password": "32155",
+      "id": "68bkciSs3vA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

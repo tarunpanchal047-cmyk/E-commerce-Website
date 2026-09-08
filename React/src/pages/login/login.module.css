@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.loginPage {
+  min-height: 100vh;
+
+  background-image: url("./image\ log\ in.jpg");
+height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  width: 347px;
+  min-height: 423px;
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 30px;
+  padding: 22px 37px 25px;
+}
+
+.smallText {
+  font-size: 12px;
+  color: #9b9da6;
+  margin-bottom: 7px;
+}
+
+.loginCard h1 {
+    margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #30313d;
+  margin-bottom: 35px;
+}
+
+.inputGroup {
+  margin-bottom: 18px;
+}
+
+.inputGroup input {
+  width: 100%;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #dfe2e7;
+  border-radius: 10px;
+  outline: none;
+  font-size: 11px;
+}
+
+.inputGroup input:focus {
+  border-color: #397ff3;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -3px;
+  margin-bottom: 35px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: #454650;
+}
+
+.remember input {
+  width: 11px;
+  height: 11px;
+}
+
+.options a {
+  font-size: 10px;
+  color: #397cf5;
+  text-decoration: underline;
+}
+
+.loginBtn {
+    
+  width: 100%;
+  height: 36px;
+  
+  border: none;
+  border-radius: 10px;
+  background: #0059e9;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.loginBtn:hover {
+  background: #102e5e;
+}
+
+.googleBtn {
+  width: 100%;
+  height: 32px;
+  background: white;
+  border: 1px solid #dfe2e7;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  font-size: 11px;
+  color: #3d3e45;
+  cursor: pointer;
+}
+
+.googleIcon {
+  font-size: 17px;
+  font-weight: bold;
+  color: #4285f4;
+}
+
+.signupText {
+  text-align: center;
+  font-size: 10px;
+  color: #92949d;
+  margin-top: 14px;
+}
+
+.signupText a {
+  color: #397ff3;
+  text-decoration: underline;
+}

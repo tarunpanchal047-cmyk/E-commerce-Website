@@ -1,11 +1,11 @@
-import Layout from "../layout/Layout";
+import Layout from "../pages/layout/Layout";
 import Home from "../pages/home/Home";
 import AllProduct from "../pages/allProduct/AllProduct";
 import Cart from "../pages/cart/Cart";
 import Login from "../pages/login/Login";
-import SignUp from "../pages/signup/SignUp";
+import SignUp from "../pages/singup/SignUp";
 import EditProfile from "../pages/editProfile/EditProfile";
-import NotFound from "../components/NotFound";
+import NotFound from "../pages/notfound/NotFound";
 import { createBrowserRouter } from "react-router-dom";
 
 const Router = createBrowserRouter([
