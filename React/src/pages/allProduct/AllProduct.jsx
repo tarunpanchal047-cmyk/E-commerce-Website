@@ -2,7 +2,7 @@
 const AllProduct = () => {
   return (
     <div>
-      all products
+      <h1>AllProduct</h1>
     </div>
   )
 }
