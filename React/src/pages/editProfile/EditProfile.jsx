@@ -2,7 +2,7 @@
 const EditProfile = () => {
   return (
     <div>
-      editprofile
+      <h1>editprofile</h1>
     </div>
   )
 }
