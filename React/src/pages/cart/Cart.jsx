@@ -29,7 +29,7 @@ const Cart = () => {
 
               console.log(id, title, price, description, image)
               return (
-                <div style = {{border: "1px solid red"}}>
+                <div>
                   <h1>{id}</h1>
                   <h2>{title}</h2>
                   <h2>{price}</h2>
