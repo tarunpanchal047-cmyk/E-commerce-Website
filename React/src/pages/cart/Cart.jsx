@@ -38,6 +38,7 @@ const Cart = () => {
                   <img src={image} alt="" height={200} />
                   <button>Remove from Cart</button>
                 </div>
+                
               )
             })
           ) : (
