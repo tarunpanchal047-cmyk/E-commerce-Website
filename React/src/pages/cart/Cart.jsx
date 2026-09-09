@@ -1,5 +1,6 @@
 import  { useEffect, useState } from 'react'
 import axios from 'axios';
+import "./cart.module.css"
 
 const Cart = () => {
   let [userData, setUserData] = useState([]);
@@ -29,7 +30,7 @@ const Cart = () => {
 
               console.log(id, title, price, description, image)
               return (
-                <div>
+                <div className="cart-container">
                   <h1>{id}</h1>
                   <h2>{title}</h2>
                   <h2>{price}</h2>

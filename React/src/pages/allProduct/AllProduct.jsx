@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-
+import "./allproduct.module.css";
 const AllProduct = () => {
   let [allProduct, setAllProduct] = useState([])
 
@@ -42,7 +42,7 @@ const AllProduct = () => {
 
   return (
     <div>
-      <h1>AllProductssss</h1>
+      <h1 >AllProductssss</h1>
       {
         allProduct.map((res) => {
           let { id, image, price, title } = res
