@@ -1,6 +1,6 @@
 import  { useEffect, useState } from 'react'
 import axios from 'axios';
-import "./cart.module.css"
+import styles from "./cart.module.css";
 
 const Cart = () => {
   let [userData, setUserData] = useState([]);
@@ -30,7 +30,7 @@ const Cart = () => {
 
               console.log(id, title, price, description, image)
               return (
-                <div className="cart-container">
+                <div className={styles.cart}>
                   <h1>{id}</h1>
                   <h2>{title}</h2>
                   <h2>{price}</h2>
