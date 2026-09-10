@@ -15,12 +15,14 @@ const Cart = () => {
     }
     getData();
   },[])
+
   console.log(userData);
 
   if(isLoading) {
     return <h1>Loading...</h1>
   } else {
     return (
+
       <>
         {
           (userData?.cart?.length > 0) ? (
@@ -46,6 +48,7 @@ const Cart = () => {
           )
         }
       </>
+      
     )
 
   }
